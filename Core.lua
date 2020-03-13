@@ -293,7 +293,7 @@ do
 					AceConfigDialog:SelectGroup(AddOnFolderName, "npcOptions", "search")
 					private.PerformNPCSearch(subject)
 				end,
-				--@debug@
+				--[===[@debug@
 				DEBUG = function()
 					local debugger = private.GetDebugger()
 
@@ -320,7 +320,7 @@ do
 						end
 					end
 				end
-				--@end-debug@
+				--@end-debug@]===]
 			}
 
 		local subcommand, arg1, arg2 = self:GetArgs(input, 3)
